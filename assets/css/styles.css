@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root {
+  --strong-cyan: hsl(172, 67%, 45%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: var(--very-dark-cyan);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light-grayish-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.content-box-first {
+  background-color: var(--white);
+  border-radius: 16px;
+}
+
+.content-box-two {
+  background-color: var(--very-dark-cyan);
+  border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution p, a {
+  text-align: center;
+  font-size: 12px;
+}
+
