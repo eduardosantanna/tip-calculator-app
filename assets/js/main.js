@@ -1,7 +1,9 @@
-const btnTeste = document.querySelectorAll('.btn-percentage')
+new class TipCalculator {
+  constructor() {
+    this.initialize()
+  }
 
-document.addEventListener('click', (event) => {
-    if (event.target.classList.contains('btn-percentage')) {
-        console.log(Number(event.target.innerHTML.replace(/%/g, '')))
-    }
-})
+  initialize() {
+
+  }
+}

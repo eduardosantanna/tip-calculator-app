@@ -16,6 +16,18 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* [ Errors ] - START */
+
+.btn-people-qtd-error {
+  border: 2px solid red !important;
+}
+
+.error-people-to-zero {
+  display: block !important;
+}
+
+/* [ Errors ] - END */
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -141,6 +153,7 @@ h1 {
 }
 
 .box-number-of-people span {
+  display: none;
   position: absolute;
   font-size: 14px;
   color: red;
@@ -188,10 +201,6 @@ h1 {
   font-size: 12px;
 }
 
-.result-box div:nth-child(2) {
-  
-}
-
 .result-box div:nth-child(2) p {
   color: var(--strong-cyan);
   font-size: 38px;
@@ -218,7 +227,7 @@ h1 {
 
 .btn-reset button:hover {
   background-color: var(--light-grayish-cyan);
-} 
+}
 
 /* Footer */
 
