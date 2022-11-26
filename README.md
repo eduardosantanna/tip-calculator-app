@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/eduardosantanna/tip-calculator-app)
-- Live Site URL: [Add live site URL here](https://eduardosantanna.github.io/tip-calculator-app/)
+- Solution URL: [Click to access the solution.](https://github.com/eduardosantanna/tip-calculator-app)
+- Live Site URL: [Click to access the app.](https://eduardosantanna.github.io/tip-calculator-app/)
 
 ## My process
 
