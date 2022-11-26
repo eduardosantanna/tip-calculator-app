@@ -125,8 +125,13 @@ h1 {
   flex-grow: 1;
 }
 
+.btn-percentage-selected {
+  background-color: var(--strong-cyan) !important;
+  color: var(--very-dark-cyan) !important;
+}
+
 .btn-percentage:hover {
-  background-color: var(--strong-cyan);
+  background-color: var(--light-grayish-cyan);
   color: var(--very-dark-cyan);
 }
 
@@ -137,7 +142,6 @@ h1 {
   color: var(--very-dark-cyan);
   background-color: var(--very-light-grayish-cyan);
   border-radius: 4px;
-  text-align: center;
   flex-grow: 1;
   outline: none;
   text-align: right;
