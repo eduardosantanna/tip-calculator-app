@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click to access the solution.](https://github.com/eduardosantanna/tip-calculator-app)
-- Live Site URL: [Click to access the app.](https://eduardosantanna.github.io/tip-calculator-app/){:target="_blank"}
+- Live Site URL: <a href="https://eduardosantanna.github.io/tip-calculator-app/" target="_blank">Click to access the app.</a>
 
 ## My process
 
